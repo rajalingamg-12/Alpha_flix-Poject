@@ -50,7 +50,7 @@ const Home = () => {
     }, 4000);
 
     return () => clearInterval(interval);
-  }, []);
+  }, [bannerImages.length]);
 
   const allMovies = [
     stranger,
@@ -156,11 +156,11 @@ const Home = () => {
           <div className="row">
             <h2>Trending Now</h2>
             <div className="posters">
-              <img src={stranger} />
-              <img src={It} />
-              <img src={wednesday} />
-              <img src={superman} />
-              <img src={lio} />
+              <img src={stranger} alt="" />
+              <img src={It} alt="" />
+              <img src={wednesday} alt="" />
+              <img src={superman} alt="" />
+              <img src={lio} alt="" />
             </div>
           </div>
 
@@ -168,11 +168,11 @@ const Home = () => {
           <div className="row">
             <h2>Top Picks For You</h2>
             <div className="posters">
-              <img src={white} />
-              <img src={year} />
-              <img src={evil} />
-              <img src={getout} />
-              <img src={ourplanet} />
+              <img src={white} alt="" />
+              <img src={year} alt="" />
+              <img src={evil} alt="" />
+              <img src={getout} alt="" />
+              <img src={ourplanet} alt="" />
             </div>
           </div>
 
@@ -180,11 +180,11 @@ const Home = () => {
           <div className="row">
             <h2>Action Movies</h2>
             <div className="posters">
-              <img src={sevenking} />
-              <img src={indianan} />
-              <img src={greyman} />
-              <img src={backtoaction} />
-              <img src={birdbox} />
+              <img src={sevenking} alt="" />
+              <img src={indianan} alt="" />
+              <img src={greyman} alt="" />
+              <img src={backtoaction} alt="" />
+              <img src={birdbox} alt="" />
             </div>
           </div>
 
@@ -192,11 +192,11 @@ const Home = () => {
           <div className="row">
             <h2>Comedy Movies</h2>
             <div className="posters">
-              <img src={wehaveghost} />
-              <img src={familyswitch} />
-              <img src={hallpass} />
-              <img src={bossbaby} />
-              <img src={jumanji} />
+              <img src={wehaveghost} alt="" />
+              <img src={familyswitch} alt="" />
+              <img src={hallpass} alt="" />
+              <img src={bossbaby} alt="" />
+              <img src={jumanji} alt="" />
             </div>
           </div>
 
@@ -204,11 +204,11 @@ const Home = () => {
           <div className="row">
             <h2>Drama & Romance</h2>
             <div className="posters">
-              <img src={unlocked} />
-              <img src={kissingbooth} />
-              <img src={you} />
-              <img src={myfault} />
-              <img src={oursecret} />
+              <img src={unlocked} alt="" />
+              <img src={kissingbooth} alt="" />
+              <img src={you} alt="" />
+              <img src={myfault} alt="" />
+              <img src={oursecret} alt="" />
             </div>
           </div>
 
@@ -216,11 +216,11 @@ const Home = () => {
           <div className="row">
             <h2>Horror & Thriller</h2>
             <div className="posters">
-              <img src={terifier} />
-              <img src={dark} />
-              <img src={annabella} />
-              <img src={nun} />
-              <img src={conjuring} />
+              <img src={terifier} alt="" />
+              <img src={dark} alt="" />
+              <img src={annabella} alt="" />
+              <img src={nun} alt="" />
+              <img src={conjuring} alt="" />
             </div>
           </div>
 
