@@ -1,0 +1,106 @@
+.tvshows {
+  background-color: #141414;
+  color: white;
+  padding-bottom: 40px;
+}
+
+/* Banner */
+.tv-banner {
+  height: 50vh;
+  padding: 90px 40px;
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4)),
+    url("assets/tvshow-bg.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.tv-banner h1 {
+  font-size: 3rem;
+}
+
+.tv-banner p {
+  font-size: 1.2rem;
+  max-width: 500px;
+  margin-top: 10px;
+}
+
+/* Reuse row styles */
+.row {
+  margin-left: 20px;
+  margin-top: 30px;
+}
+
+.row h2 {
+  margin-left: 10px;
+}
+
+.posters {
+  display: flex;
+  overflow-x: auto;
+  gap: 12px;
+  padding: 15px 10px;
+}
+
+.posters::-webkit-scrollbar {
+  display: none;
+}
+
+.posters img {
+  width: 220px;
+  height: 130px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.posters img:hover {
+  transform: scale(1.15);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.8);
+}
+
+/* View All Button */
+.view-all-container {
+  display: flex;
+  justify-content: center;
+  margin: 50px 0;
+}
+
+.view-all-container .view-all-btn {
+  padding: 14px 40px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #dd00ff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* Hover Effect */
+.view-all-container .view-all-btn:hover {
+  background-color: #d2aad8;
+  transform: scale(1.05);
+}
+
+/* Click Effect */
+.view-all-container .view-all-btn:active {
+  transform: scale(0.98);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .tv-banner h1 {
+    font-size: 2rem;
+  }
+
+  .posters img {
+    width: 150px;
+    height: 90px;
+  }
+
+  .view-all-container .view-all-btn {
+    padding: 12px 32px;
+    font-size: 1rem;
+  }
+}

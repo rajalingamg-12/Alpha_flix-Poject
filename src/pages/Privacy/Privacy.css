@@ -1,0 +1,101 @@
+.privacy {
+  min-height: 100vh;
+  background: linear-gradient(180deg, #0b0014, #000);
+  color: #e5e5e5;
+  padding: 90px 20px;
+}
+
+.privacy-container {
+  max-width: 900px;
+  margin: auto;
+}
+
+.privacy h1 {
+  font-size: 2.8rem;
+  color: #dd00ff;
+  margin-bottom: 10px;
+}
+
+.updated {
+  color: #aaa;
+  margin-bottom: 40px;
+}
+
+/* Sections */
+.privacy section {
+  margin-bottom: 30px;
+  padding-left: 10px;
+  border-left: 3px solid #dd00ff;
+}
+
+.privacy h2 {
+  font-size: 1.4rem;
+  margin-bottom: 8px;
+  color: #dd00ff;
+}
+
+.privacy p {
+  line-height: 1.7;
+  color: #ffffff;
+}
+
+/* Help / Contact section*/
+.privacy-help {
+  margin-top: 60px;
+  padding: 35px;
+  background: rgba(20, 20, 20, 0.8);
+  border-radius: 8px;
+  text-align: center;
+}
+
+.privacy-help h3 {
+  color: #dd00ff;
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+.privacy-help p {
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+/* Contact Button */
+.contact-btn {
+  display: inline-block;
+  padding: 12px 35px;
+  background-color: #dd00ff;
+  color: white;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  transition:
+    background-color 0.3s ease,
+    transform 0.3s ease;
+}
+
+.contact-btn:hover {
+  background-color: #d3b0d8;
+  transform: scale(1.05);
+}
+
+.email {
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.email span {
+  color: #dd00ff;
+  font-weight: bold;
+}
+
+/* Media Query */
+
+@media (max-width: 768px) {
+  .privacy h1 {
+    font-size: 2.1rem;
+  }
+
+  .privacy-help {
+    padding: 25px;
+  }
+}

@@ -1,0 +1,85 @@
+/* Signup.css */
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #141414, #1f1f1f);
+  color: #fff;
+}
+
+.signup {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)),
+    url(assets/loginback.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.signup-box {
+  background-color: rgba(0, 0, 1, 1);
+  padding: 40px;
+  border-radius: 10px;
+  width: 350px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.7);
+  text-align: center;
+}
+
+.signup-box h1 {
+  margin-bottom: 30px;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #dd00ff!important;
+}
+
+.signup-box input {
+  width: 100%;
+  padding: 12px;
+  margin: 12px 0;
+  border: none;
+  border-radius: 5px;
+  background-color: #333;
+  color: #fff;
+  font-size: 1rem;
+}
+
+.signup-box input::placeholder {
+  color: #aaa;
+}
+
+.signup-box button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 20px;
+  background-color: #dd00ff !important;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.signup-box button:hover {
+  background-color: #cca8d2 !important;
+}
+
+.signup-box .login-text,
+.signup-box .signup-text {
+  margin-top: 20px;
+  font-size: 0.9rem;
+  color: #bbb;
+}
+
+.signup-box span {
+  color: #dd00ff;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.signup-box span:hover {
+  text-decoration: underline;
+}

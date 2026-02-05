@@ -1,0 +1,57 @@
+.login {
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)),
+    url("assets/loginbg.webp");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-box {
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 60px 50px;
+  width: 350px;
+  border-radius: 6px;
+  color: #dd00ff;
+}
+
+.login-box h1 {
+  margin-bottom: 25px;
+}
+
+.login-box input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  background-color: #333;
+  border: none;
+  border-radius: 4px;
+  color: white;
+}
+
+.login-box button {
+  width: 100%;
+  padding: 12px;
+  background-color: #dd00ff!important;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.login-box button:hover {
+  background-color: #daa6d9 !important;
+}
+
+.signup-text {
+  margin-top: 20px;
+  color: #aaa;
+}
+
+.signup-text span {
+  color: #dd00ff;
+  cursor: pointer;
+}

@@ -1,0 +1,178 @@
+.mylist {
+  background-color: #141414;
+  color: white;
+  padding-bottom: 40px;
+}
+
+/* Banner */
+.mylist-banner {
+  height: 45vh;
+  padding: 90px 40px;
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4)),
+    url("assets/background_image.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.mylist-banner h1 {
+  font-size: 3rem;
+}
+
+.mylist-banner p {
+  font-size: 1.2rem;
+  max-width: 500px;
+  margin-top: 10px;
+}
+
+/* Row */
+.row {
+  margin-left: 20px;
+  margin-top: 30px;
+}
+
+.row h2 {
+  margin-left: 10px;
+}
+
+.posters {
+  display: flex;
+  overflow-x: auto;
+  gap: 12px;
+  padding: 15px 10px;
+}
+
+.posters::-webkit-scrollbar {
+  display: none;
+}
+
+.posters img {
+  width: 220px;
+  height: 130px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.posters img:hover {
+  transform: scale(1.15);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.8);
+}
+
+/* Empty Message */
+.empty-msg {
+  text-align: center;
+  margin-top: 40px;
+  color: #aaa;
+  font-size: 1.1rem;
+}
+
+/* Media Query */
+
+/*  Tablet View (max-width: 992px)  */
+@media (max-width: 992px) {
+  .mylist-banner {
+    height: 40vh;
+    padding: 70px 30px;
+  }
+
+  .mylist-banner h1 {
+    font-size: 2.4rem;
+  }
+
+  .mylist-banner p {
+    font-size: 1.05rem;
+    max-width: 420px;
+  }
+
+  .row {
+    margin-left: 15px;
+    margin-top: 25px;
+  }
+
+  .row h2 {
+    font-size: 1.2rem;
+  }
+
+  .posters img {
+    width: 190px;
+    height: 115px;
+  }
+
+  .empty-msg {
+    font-size: 1rem;
+    margin-top: 35px;
+  }
+}
+
+/*  Mobile View  */
+@media (max-width: 768px) {
+  .mylist-banner {
+    height: 35vh;
+    padding: 60px 20px;
+  }
+
+  .mylist-banner h1 {
+    font-size: 2rem;
+  }
+
+  .mylist-banner p {
+    font-size: 1rem;
+    max-width: 100%;
+  }
+
+  .row {
+    margin-left: 10px;
+    margin-top: 22px;
+  }
+
+  .row h2 {
+    font-size: 1.1rem;
+    margin-left: 6px;
+  }
+
+  .posters {
+    gap: 10px;
+    padding: 12px 8px;
+  }
+
+  .posters img {
+    width: 160px;
+    height: 95px;
+  }
+
+  .empty-msg {
+    font-size: 0.95rem;
+    margin-top: 30px;
+  }
+}
+
+/*  Small Mobile View  */
+@media (max-width: 480px) {
+  .mylist-banner {
+    height: 30vh;
+    padding: 50px 15px;
+  }
+
+  .mylist-banner h1 {
+    font-size: 1.7rem;
+  }
+
+  .mylist-banner p {
+    font-size: 0.95rem;
+  }
+
+  .row h2 {
+    font-size: 1rem;
+  }
+
+  .posters img {
+    width: 140px;
+    height: 85px;
+  }
+
+  .empty-msg {
+    font-size: 0.9rem;
+  }
+}
