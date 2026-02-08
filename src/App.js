@@ -47,16 +47,10 @@ function App() {
           <Route path="/faq" element={<FAQ />} />
           <Route path="/help" element={<Help />} />
           <Route path="/subscribe" element={<Subscribe />} />
-
-          { /*  Profile Routes  */}
           <Route path="/profile" element={<Profile user={user} />} />
-          <Route
-            path="/profile/edit"
-            element={<EditProfile user={user} setUser={setUser} />}
-          />
+          <Route path="/profile/edit" element={<EditProfile user={user} setUser={setUser} />}/>
         </Routes>
       </div>
-
       <Footer />
     </BrowserRouter>
   );
